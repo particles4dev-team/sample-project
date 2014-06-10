@@ -1,0 +1,19 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-app-packages
+service-configuration
+accounts-base
+accounts-ui
+accounts-password
+accounts-twitter
+insecure
+http
+email
+spiderable
+iron-router
+roles
+bootstrap-3
+sass

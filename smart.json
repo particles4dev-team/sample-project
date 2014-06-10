@@ -1,0 +1,8 @@
+{
+  "packages": {
+  	"iron-router": {},
+  	"roles": {},
+  	"bootstrap-3": {},
+	"sass": {}
+  }
+}
