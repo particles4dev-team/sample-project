@@ -18,16 +18,6 @@
         "tag": "v1.2.8",
         "commit": "68844ba216c348d332bdb840825850f497f515bb"
       },
-      "bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.1-1",
-        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
-      },
-      "sass": {
-        "git": "https://github.com/particle4dev/meteor-sass.git",
-        "tag": "v0.1.4",
-        "commit": "7f43b08e9726c953bbbda5974d09cfca89f45086"
-      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
