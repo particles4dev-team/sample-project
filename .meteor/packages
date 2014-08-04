@@ -13,7 +13,5 @@ insecure
 http
 email
 spiderable
-iron-router
-roles
 bootstrap-3
 sass

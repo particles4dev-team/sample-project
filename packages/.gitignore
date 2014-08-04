@@ -1,3 +1,7 @@
-iron-router
-roles
-blaze-layout
+/iron-router
+/roles
+/nprogress
+/iron-layout
+/blaze-layout
+/iron-core
+/iron-dynamic-template
