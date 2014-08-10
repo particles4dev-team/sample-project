@@ -1,0 +1,9 @@
+<template name="appLayout">
+    {{! yield region="header"}}
+    {{! yield region="subheader"}}
+    {{> yield}}
+    {{! yield region="footer"}}
+
+    {{> famous template='leftSideMenuLayout' }}
+    {{> famous type='view' template='home' }}
+</template>

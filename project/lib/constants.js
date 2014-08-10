@@ -1,0 +1,6 @@
+/**
+ * Define constants
+ */
+SC = {
+
+};

@@ -1,0 +1,44 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "roles": {},
+      "nprogress": {},
+      "famono": {},
+      "sass": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.2.9",
+        "commit": "969b17fac5dfec66b6b12bfce4e37471d1a241d4"
+      },
+      "nprogress": {
+        "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
+        "tag": "v0.0.4",
+        "commit": "8333206b751a24fac1fbd1b03fa37621bcefe50c"
+      },
+      "famono": {
+        "git": "https://github.com/raix/Meteor-famono.git",
+        "tag": "v0.3.3",
+        "commit": "e953d5f1f7a9906d3df86472b9582f14cc3e4699"
+      },
+      "sass": {
+        "git": "https://github.com/particle4dev/meteor-sass.git",
+        "tag": "v0.1.4",
+        "commit": "7f43b08e9726c953bbbda5974d09cfca89f45086"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      }
+    }
+  }
+}
