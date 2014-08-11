@@ -1,11 +1,11 @@
-{{ name }} = new Meteor.Collection('{{ name }}',{
-    transform: function(doc) {return new {{ name }}Document(doc);}
+{{ collection }} = new Meteor.Collection('{{ name }}',{
+    transform: function(doc) {return new {{ collection }}Document(doc);}
 });
 
-{{ name }}Document = function(doc){
+{{ collection }}Document = function(doc){
     var self = this;
     _.extend(self, doc);
 };
-_.extend({{ name }}Document.prototype, {
-    constructor: {{ name }}Document
+_.extend({{ collection }}Document.prototype, {
+    constructor: {{ collection }}Document
 });
