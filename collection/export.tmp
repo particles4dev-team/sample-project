@@ -1,0 +1,30 @@
+/**
+ * Config, variable
+ */
+var Future = Npm.require('fibers/future');
+var Fiber = Npm.require('fibers');
+
+/**
+ * Method
+ */
+Meteor.methods({
+
+});
+
+/**
+ * Function or class
+ */
+
+/**
+ * export
+ */
+(function(){
+    var self = this;
+}).apply(APP.namespace('{{ namespace }}'));
+
+/**
+ * Quick test
+ */
+Meteor.startup(function () {
+
+});
