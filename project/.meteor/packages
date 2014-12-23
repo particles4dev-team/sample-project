@@ -4,6 +4,21 @@
 # but you can also edit it by hand.
 
 standard-app-packages
+accounts-base
+accounts-oauth
+accounts-ui
+accounts-password
+service-configuration
+observe-sequence
+reactive-var
+fastclick
+http
+launch-screen
+facts
 
 iron:router
+alanning:roles
+mrt:moment
+mrt:nprogress
+
 particle4dev:debugx

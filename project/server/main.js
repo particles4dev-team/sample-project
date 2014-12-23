@@ -1,4 +1,7 @@
 Meteor.startup(function(){
     // fixtures
-    APP.namespace('FIXTURES').init();
+    var fixturesModule = APP.namespace('APP.FIXTURES');
+
+    fixturesModule.setIndex();
+    fixturesModule.init();
 });

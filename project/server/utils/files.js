@@ -7,6 +7,6 @@ var loadStaticJSONFile = function(file) {
 
 // export
 (function(){
-	var self = this;
-	self.loadStaticJSONFile = loadStaticJSONFile;
-}).apply(APP.namespace('Files'));
+    var self = this;
+    self.loadStaticJSONFile = loadStaticJSONFile;
+}).apply(APP.namespace('APP.utils.Files'));
