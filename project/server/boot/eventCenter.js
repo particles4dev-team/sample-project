@@ -36,7 +36,7 @@ Meteor.methods({
             sandbox.emit.apply(sandbox, args);
         }
     });
-}).apply(APP.namespace('APP.Event_Center'));
+}).apply(APP.namespace('app.module.Event_Center'));
 
 /**
  * Quick test

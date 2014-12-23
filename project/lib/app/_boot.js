@@ -7,7 +7,7 @@ APP.namespace = function (ns_string) {
     parent = APP,
     i;
     // strip redundant leading global
-    if (parts[0] === "APP") {
+    if (parts[0] === "app") {
         parts = parts.slice(1);
     }
     for (i = 0; i < parts.length; i += 1) {

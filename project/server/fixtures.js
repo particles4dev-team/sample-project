@@ -3,14 +3,14 @@
  */
 var Future = Npm.require('fibers/future');
 var Fiber = Npm.require('fibers');
-var Files = APP.namespace('APP.utils.Files');
+var Files = APP.namespace('app.utils.Files');
 
 /**
  * Methods, functions
  */
 var loadUsers = function(){
     var users = Files.loadStaticJSONFile('users.json');
-    var usersModule = APP.namespace('APP.collections.USERS');
+    var usersModule = APP.namespace('app.collections.USERS');
     _.each(users.data, function(user){
         loginfo('FIXTURES - User', user.username);
         try {
@@ -37,4 +37,4 @@ var loadUsers = function(){
             logerror('FIXTURES -- Set Collection Index Failed', err.message);
         }
     };
-}).apply(APP.namespace('APP.FIXTURES'));
+}).apply(APP.namespace('app.module.FIXTURES'));

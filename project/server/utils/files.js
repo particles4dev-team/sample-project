@@ -9,4 +9,4 @@ var loadStaticJSONFile = function(file) {
 (function(){
     var self = this;
     self.loadStaticJSONFile = loadStaticJSONFile;
-}).apply(APP.namespace('APP.utils.Files'));
+}).apply(APP.namespace('app.utils.Files'));

@@ -50,7 +50,7 @@ var getNameById = function(userId){
     var self = this;
     self.getNameById        = getNameById;
     self.insertByObject     = insertByObject;
-}).apply(APP.namespace('APP.collections.USERS'));
+}).apply(APP.namespace('app.collections.USERS'));
 
 /**
  * Quick test
