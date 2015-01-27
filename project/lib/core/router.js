@@ -7,7 +7,7 @@ Router.getCurrentRouterName = function() {
     if (!router) {
         return;
     }
-    routeName = router.route.name;
+    routeName = router.route.getName();
     return routeName;
 };
 
