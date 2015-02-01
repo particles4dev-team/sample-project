@@ -18,7 +18,8 @@ facts
 
 iron:router
 alanning:roles
-mrt:moment
 mrt:nprogress
+momentjs:moment
 
 particle4dev:debugx
+particle4dev:sass
