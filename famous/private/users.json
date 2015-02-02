@@ -1,0 +1,89 @@
+{
+    "data": [{
+        "_id": "admin",
+        "username": "admin",
+        "profile": {
+            "name": "admin",
+            "image": "",
+            "gender": "Male",
+            "status": {
+
+            }
+        },
+        "roles": ["admin"],
+        "services": {
+            "password": {
+                "srp": {
+                    "identity": "YG3c5redewBxjMDcq",
+                    "salt": "5aMxFZ2d78tKa9Xee",
+                    "verifier": "49b8ff29002716f61401f3a87cd56ac66040bc961134222cc5e9bfdf7e71addc7b23034a0a44b1491e939d56a4ae745e559ba308059e02aedb364b59b02ac71dbb67aa7790c187c649ed09af5356fa646248e2113ae4dcd3a9e2167969a36e3f1cb985a84d3a79463811468e1e31faa12d71750bea1df968196c52162439fe21"
+                }
+            },
+            "resume": {
+                "loginTokens": []
+            }
+        },
+        "emails": [{
+            "address": "admin@particle4dev.com",
+            "verified": true
+        }]
+    },
+    {
+        "_id": "moderator",
+        "username": "moderator",
+        "profile": {
+            "name": "moderator",
+            "image": "",
+            "gender": "Male",
+            "status": {
+
+            }
+        },
+        "roles": ["moderator"],
+        "services": {
+            "password": {
+                "srp": {
+                    "identity": "YG3c5redewBxjMDcq",
+                    "salt": "5aMxFZ2d78tKa9Xee",
+                    "verifier": "49b8ff29002716f61401f3a87cd56ac66040bc961134222cc5e9bfdf7e71addc7b23034a0a44b1491e939d56a4ae745e559ba308059e02aedb364b59b02ac71dbb67aa7790c187c649ed09af5356fa646248e2113ae4dcd3a9e2167969a36e3f1cb985a84d3a79463811468e1e31faa12d71750bea1df968196c52162439fe21"
+                }
+            },
+            "resume": {
+                "loginTokens": []
+            }
+        },
+        "emails": [{
+            "address": "moderator@particle4dev.com",
+            "verified": true
+        }]
+    },
+    {
+        "_id": "user00",
+        "username": "user00",
+        "profile": {
+            "name": "user00 (Mr Bond)",
+            "image": "",
+            "gender": "Male",
+            "status": {
+
+            }
+        },
+        "roles": ["user"],
+        "services": {
+            "password": {
+                "srp": {
+                    "identity": "YG3c5redewBxjMDcq",
+                    "salt": "5aMxFZ2d78tKa9Xee",
+                    "verifier": "49b8ff29002716f61401f3a87cd56ac66040bc961134222cc5e9bfdf7e71addc7b23034a0a44b1491e939d56a4ae745e559ba308059e02aedb364b59b02ac71dbb67aa7790c187c649ed09af5356fa646248e2113ae4dcd3a9e2167969a36e3f1cb985a84d3a79463811468e1e31faa12d71750bea1df968196c52162439fe21"
+                }
+            },
+            "resume": {
+                "loginTokens": []
+            }
+        },
+        "emails": [{
+            "address": "user00@particle4dev.com",
+            "verified": true
+        }]
+    }]
+}
