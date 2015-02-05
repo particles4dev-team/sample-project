@@ -1,7 +1,7 @@
 /**
  * Helpers router
  */
-if(Router){
+if(typeof Router != 'undefined'){
     Router.getCurrentRouterName = function() {
         var routeName, router;
         router = Router.current();
