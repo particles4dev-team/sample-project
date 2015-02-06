@@ -38,3 +38,11 @@ Package.on_use(function(api) {
     // api.add_files('facebook_server.js', server);
     // api.add_files('facebook.js', 'web');
 });
+
+Package.on_test(function (api) {
+    api.use(['test-helpers', 'tinytest', 'particle4dev:<package name/>']);
+
+    // api.add_files([
+    //     'tests/test.js',
+    // ], client);
+});
