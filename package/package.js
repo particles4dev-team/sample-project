@@ -37,6 +37,9 @@ Package.on_use(function(api) {
     // add files
     // api.add_files('facebook_server.js', server);
     // api.add_files('facebook.js', 'web');
+    // if (typeof api.export !== 'undefined') {
+        // api.export('CRON', ['server']);
+    // }
 });
 
 Package.on_test(function (api) {
