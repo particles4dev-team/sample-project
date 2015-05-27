@@ -3,7 +3,7 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-standard-app-packages
+meteor-platform
 accounts-base
 accounts-oauth
 accounts-ui
@@ -16,10 +16,11 @@ http
 launch-screen
 facts
 
-iron:router
 alanning:roles
 mrt:nprogress
 momentjs:moment
+meteorhacks:flow-router
+meteorhacks:ssr
 
 particle4dev:debugx
 particle4dev:sass
