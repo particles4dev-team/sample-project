@@ -28,7 +28,7 @@ var insertByObject = function (user) {
     user.updatedAt = new Date();
     // user.createdAt = new Date(); accounts package will auto create this field 
     user.profile.image = SC.AVATAR;
-    return Accounts.createUser(user);
+    return Users.insert(user);
 };
 
 /**
