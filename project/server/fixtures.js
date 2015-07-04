@@ -25,6 +25,9 @@ var loadUsers = function(){
 // export
 (function(){
     var self = this;
+    self.reset = function(){
+        
+    };
     self.init = function(){
         loadUsers();
     };
